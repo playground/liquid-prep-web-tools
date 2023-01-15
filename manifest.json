@@ -5,16 +5,6 @@
       "chipFamily": "ESP32",
       "improv": true,
       "parts": [
-        { "path": "bootloader.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 },
-        { "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "firmware.bin", "offset": 65536 }
-      ]
-    },
-    {
-      "chipFamily": "ESP32 WIFI BLE",
-      "improv": true,
-      "parts": [
         { "path": "wifi-ble/bootloader.bin", "offset": 4096 },
         { "path": "wifi-ble/partitions.bin", "offset": 32768 },
         { "path": "wifi-ble/boot_app0.bin", "offset": 57344 },
