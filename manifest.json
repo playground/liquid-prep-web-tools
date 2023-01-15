@@ -21,6 +21,5 @@
         { "path": "wifi-ble/firmware.bin", "offset": 65536 }
       ]
     }
-
   ]
 }
