@@ -15,6 +15,36 @@
         </ul>
         <i>Note:  Depending on the state your ESP32 is in, you may have to hold down the "BOOT button" to put it in upload mode</i>
     </p>
+    <p>
+        Once the installation is completed, you should see your ESP32-LiquidPrep listed via bluetooth.  You can also allow your ESP32 to join your local WiFi by first
+        joining the "esp32ap".  After joining the "esp32ap", a portal should pop up.  If the portal doesn't pop open, you can go to it in your browser
+        with this ip address "http://172.217.28.1/_ac/config".  
+    </p>
+    For example:
+    <table>
+            <tr>
+                <td>IP Address</td><td>192.168.0.100</td>
+            </tr>
+            <tr>
+                <td>Gateway</td><td>192.168.0.1</td>
+            </tr>
+            <tr>
+                <td>Netmask</td><td>255.255.255.0</td>
+            </tr> 
+            <tr>
+                <td>DNS1</td><td>8.8.8.8</td>
+            </tr>
+        </table>
+    <p>
+        Then select local WiFi network you would like this ESP32 to join with the proper credential.  
+        <i>(Recommended:  Uncheck "Enable DHCP" and assign it witha static ip)</i> then click "Apply" to save the new configuration.
+    </p>
+    <p>   
+        After it saved successfully, join back to your home WiFi.
+        You can always go back to the Portal with the static ip address you have assigned to this ESP32.
+          
+    </p>
+    <p></p>
     <script
       type="module"
       src="https://unpkg.com/esp-web-tools@9.1.1/dist/web/install-button.js?module"
