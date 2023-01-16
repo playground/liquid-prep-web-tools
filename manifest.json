@@ -3,7 +3,7 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "improv": true,
+      "improv": false,
       "parts": [
         { "path": "wifi-ble/bootloader.bin", "offset": 4096 },
         { "path": "wifi-ble/partitions.bin", "offset": 32768 },
