@@ -42,7 +42,15 @@
     <p>   
         After it saved successfully, join back to your home WiFi.
         You can always go back to the Portal with the static ip address you have assigned to this ESP32.
-          
+        <ul>
+            <li>Download <a href="wifi-ble/config.json" download="config.json">config.json</a></li>
+            <li>Download <a href="wifi-ble/page.json" download="page.json">page.json</a></li>
+            <li>Got to http://yourip/_ac/update and upload both config.json and page.json</li>
+            <li>Reset</li>
+        </ul>
+        After reset, go to http://yourip/update_config to adjust "Air value" and "Water value" as needed to calibrate the moisture sensor.  You would
+        want to get close to 0% for dry condition.
+        <br><i>Note:  DO NOT change the "Pin" value, leave it at 32</i>
     </p>
     <p></p>
     <script
