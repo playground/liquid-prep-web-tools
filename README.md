@@ -1,5 +1,11 @@
 # Liquid Prep Web Tools
 
+## ESP32
+
+- ![Alt text](image4.png?raw=true "Title")
+
+- https://www.amazon.com/gp/product/B086MJGFVV/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
+
 ## To update Liquid Prep firmware on ESP32
 
 - Download the new firmware binary from here https://playground.github.io/liquid-prep-web-tools/wifi-ble/firmware.bin
