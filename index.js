@@ -73,7 +73,6 @@ function clck(){
     src.setAttribute("type", "module");
     src.setAttribute("src", file);
     document.getElementsByTagName('head')[0].appendChild(src);
-    console.log('loaded');
  }
 
 
