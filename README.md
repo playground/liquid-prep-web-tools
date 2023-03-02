@@ -24,7 +24,7 @@
 - Provide the passphrase to join your WiFi, if you want to assign a static ip to the sensor, uncheck "Enable DHCP" then key in the proper values. ![Alt text](image2.jpg?raw=true "Title")
 
 - Click "Apply" to save the settings. After it's saved successfully, join back to your home WiFi.
-- You can now access the ESP32 UI by going to http://the-assigned-ip-of-this-esp32/\_ac/update ![atl text](image3.png?raw=true "Title")
+- You can now access the ESP32 UI by going to http://the-assigned-ip-of-this-esp32/_ac/update ![atl text](image3.png?raw=true "Title")
 - Choose the file (firmware.bin) you have downloaded
 - Click "Update" to upload the new firmware.bin. If upload is successful, it will reboot itself. Congratuation! You're done.
 
